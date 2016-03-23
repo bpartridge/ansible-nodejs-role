@@ -37,3 +37,4 @@
       - nodejs={{ nodejs_version }}*
     state: installed
     update_cache: yes
+    cache_valid_time: 7200
